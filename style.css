@@ -187,6 +187,21 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
+.abo1-2{
+    background-color: rgb(255, 255, 255);
+margin-left:13%;
+margin-top: 5%;
+margin-right: 15%;
+padding: 15px;
+border: groove 1px gray;
+box-shadow:  20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+background-image:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('images/handshake.jpg'); 
+
+background-attachment: fixed; 
+background-repeat: no-repeat; 
+background-size: cover;
+}
 
 .abo11{
 
@@ -688,7 +703,7 @@ font-size:1em;
             font-size: large;
         }
         .emailbtn{
-        margin-top: 7%;
+        margin-top: 10%;
             font-size: 5px;
             /* width: 50px; */
         }
@@ -697,7 +712,7 @@ font-size:1em;
         }
     .number{
         font-size: 5px;
-        margin-top: 3%;
+        margin-top: 2%;
         /* width: 12%; */
         /* display: none; */
     }
@@ -739,6 +754,15 @@ font-size:1em;
         background-repeat: no-repeat;
         background-size:100% 100% ;
 background-attachment:scroll ;
+}
+
+.abo1-2{
+    width: 90%;
+    /* height: 90%; */
+    margin-left: 4% ;
+    margin-right: 4%;
+    background-image: none;
+       background-color: white;
 }
 
 .abo11{
