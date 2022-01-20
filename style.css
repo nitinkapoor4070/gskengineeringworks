@@ -1,0 +1,808 @@
+.link{
+    text-decoration: none;
+    color: #333;
+    outline: none;
+}
+
+.emailbtn{
+    
+    position: absolute;
+    right: 3%;
+    top: 1%;
+   font-size: large;
+   padding: 5px;
+   
+   width: 14%;
+   align-items: center;
+   justify-content: center;
+   
+/* background-image:  -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(5, 139, 128)), to(rgb(2, 98, 90)));; */
+transition: all 0.2s linear;
+/* border-bottom-color: rgb(2, 98, 90); */
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-style: solid;
+border-radius: 9px;
+background-image: linear-gradient(90deg, #0065ff, #42c7ef);
+box-shadow: 0 4px 15px 0 rgba(37, 77, 206, 0.75);
+
+
+}
+
+.email{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ;
+}
+
+/* .email:hover{
+    -webkit-transform: rotateX(360deg);
+  
+    transform: rotateX(360deg);
+} */
+
+.emailbtn:hover{
+    transform: scale(1.1);
+   
+
+  
+    /* color: rgb(0, 255, 229); */
+}
+
+.emailbtn:hover:before {
+    background-position: left bottom;
+  }
+
+.email:hover{
+    color: white;
+    
+}
+
+.number{
+       
+        position: absolute;
+        right: 3%;
+        top: 8%;
+       /* font-size: ; */
+       padding: 5px;
+       
+       width: 14%;
+       align-items: center;
+       justify-content: center;
+       transition: all .2s linear;
+       background-image: linear-gradient(90deg, #0065ff, #42c7ef);
+    /* border-bottom-color: rgb(2, 98, 90); */
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-style: solid;
+    border-radius: 9px;
+    box-shadow: 0 4px 15px 0 rgba(49, 88, 196, 0.75);
+}
+#num{
+    background-image: linear-gradient(90deg, #0065ff, #42c7ef);
+    color: white;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number:hover{
+    transform: scale(1.1);
+}
+.container1{
+   
+    margin: 15px;
+}
+
+.container2{
+ 
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con1{
+    /* border: solid 2px blue; */
+    margin: 2%;
+}
+
+.con2_1{
+    padding: 25px;
+    /* margin-right: ; */
+border: solid 1px gray;
+box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.con2_2{
+    /* border: solid 2px green; */
+    padding: 2px;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+
+.con3_1{
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.con4{
+    margin-left: 20px;
+    
+}
+.linkcon{
+    text-decoration: none;
+}
+
+.con5{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+#num1{
+    background-color: white;
+    border: 0;
+    color: rgb(2, 98, 90);
+    font-weight: bold;
+}
+
+
+.abo1{
+    /* border: solid 2px blue; */
+    background-color: rgb(255, 255, 255);
+margin-left:13%;
+margin-top: 5%;
+margin-right: 15%;
+padding: 15px;
+border: groove 1px gray;
+box-shadow:  20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+background-image:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('images/handshake.jpg'); 
+
+background-attachment: fixed; 
+background-repeat: no-repeat; 
+background-size: cover;
+
+}
+
+.abo11{
+
+    /* background-color: rgb(255, 255, 255); */
+    margin-left:12%;
+    /* margin-top: 5%; */
+    margin-right: 14%;
+    padding: 15px;
+    border: groove 1px gray;
+    /* box-shadow:  10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    }
+
+
+
+.abo2{
+    margin-left:13%;
+margin-top: 5%;
+margin-right: 15%;
+padding: 2px;
+    border: 2px groove rgb(197, 197, 201);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.atable{
+    border-collapse: separate;
+     border-spacing: 20px;
+     
+}
+
+.abocat{
+    /* border: 2px solid blue; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.abocl{
+    margin-top: 50px;
+    /* border: 2px solid blue; */
+    height: 140px;
+    width: 100%;
+    background-color: grey;
+    color: black;
+
+}
+
+.linksimg{
+    height: 2vw;
+    width: 2vw;
+    transition: all .5s ;
+}
+
+.linksimg:hover{
+    /* transform: scale(1.2); */
+    transform: rotate3d(360deg);
+    -webkit-transform: rotateX(360deg);
+}
+
+.abolinks{
+    text-decoration: none;
+}
+
+.col1{
+    /* padding: 20px; */
+    /* border: 1px groove rgb(146, 146, 146); */
+    transition: all .3s linear;
+
+    /* background-color: rgb(172, 165, 165);  */
+    padding: 1%
+}
+
+.col1:hover{
+    cursor: pointer;
+transform: scale(1.1);
+
+}
+.card-body{
+    background-color: rgb(255, 255, 255);
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    transition: all .3s linear;
+}
+
+.card:hover{
+    box-shadow: 0 0 15px black;
+}
+
+/* .col:hover::before{
+
+    box-shadow: 0 0 15px #ffee10;
+} */
+
+
+
+
+
+
+
+.hoverTable{
+    /* width:100%;  */
+    border-collapse:collapse; 
+}
+.hoverTable td{ 
+    padding:7px; 
+}
+
+.hoverTable tr{
+    transition: all 0.3s linear;
+}
+
+.hoverTable tr:hover {
+      background-color: #d8edee;
+      box-shadow: 0 0 15px black;
+}
+
+
+
+/* .ibimg{
+    background-image: url("/images/background1.jpg");
+    width: 100%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+
+    opacity: 1;
+   position: absolute;
+   z-index: 1;
+   top: ; 
+} */
+
+.parah1{
+    /* border: 1px groove gray; */
+    padding: 2px;
+    padding-left: 4px;
+    margin-right: 60%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.ip1{
+
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bolder;
+    text-shadow: 2px 2px #000;
+}
+
+.ip1h1{
+    font-size: 3em;
+    color: orange;
+}
+
+
+.icontainer1{
+width: 100%;
+height: 100%;
+   border: 1px solid rgb(0, 57, 110); 
+   background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('images/background1.jpg'); 
+   background-attachment: scroll;
+    background-repeat: no-repeat;
+     background-size: cover;
+ 
+}
+
+/* card */
+.icardp {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    transition: all 0.4s linear;
+    box-shadow: 0 0 15px black;
+  }
+
+  .icardp:hover{
+      transform: scale(1.1);
+  }
+  
+  
+  .ititlep {
+  
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .ibuttonp {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .ipl {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+
+/* card */
+
+
+
+.carousel{
+    /* margin: 10% 0; */
+    /* margin-top:5% ; */
+    /* margin-bottom:5% ; */
+    margin-left:5% ;
+    margin-right:0 ;
+    width: 55rem;
+     height: 30rem;
+     margin-top: 4%;
+}
+
+.carousel-inner{
+    width: 80%;
+     height: 80%; 
+     margin:5% auto;
+}
+    
+
+
+
+
+.addition {
+  margin-left: 35%;
+  margin-top: 5%;
+  
+}
+
+.slideshow {
+  position: centre;
+  margin: 0 auto;
+  margin-left: 100px;
+  /* padding-top: 50px; */
+  height: 250px;
+  /* background-color: rgb(255, 255, 255); */
+  box-sizing: border-box;
+}
+
+.content {
+  margin: auto;
+  width: 190px;
+  perspective: 1000px;
+  position: relative;
+  padding-top: 80px;
+}
+
+.content-carrousel {
+  padding-left: 40px;
+  width: 100%;
+  position: absolute;
+  float: right;
+  animation: rotar 15s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.content-carrousel figure {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #4d444d;
+  overflow: hidden;
+  position: absolute;
+}
+
+.content-carrousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(2) {
+  transform: rotateY(60deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(3) {
+  transform: rotateY(120deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(4) {
+  transform: rotateY(180deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(5) {
+  transform: rotateY(240deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(6) {
+  transform: rotateY(300deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(7) {
+  transform: rotateY(360deg) translateZ(300px);
+}
+
+.slideshow {
+  position: absolute;
+  /* box-shadow: 0px 0pz 20px 0px #000; */
+  border-radius: 2px;
+}
+
+.content-carrousel img {
+  image-rendering: auto;
+  transition: all 300ms;
+  width: 100%;
+  height: 100%;
+}
+
+.content-carrousel img:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.yarn{
+    margin: 5% 7%;
+    display: flex;
+    box-shadow: 0 0 15px black;
+}
+
+.pimg{
+width: 50%;
+height: 50%;
+}
+
+ .yarndescription{
+   flex: right;
+   margin: 5%;
+   
+font-size:1em;
+}
+.yarndescription2{
+    margin: 4%;
+} 
+
+.yh{
+    text-shadow: 1px 1px #000;
+}
+
+
+.iphead{
+    margin: 5% 7% 2% 7%;
+}
+
+
+.productscon{
+    background-color:rgb(255, 255, 255); 
+    margin:2%; 
+    border: 2px groove rgb(192, 186, 186);
+    box-shadow: 0 0 15px black;
+}
+
+.card-img-top{
+    height: 15rem;
+}
+
+
+@keyframes rotar {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.body{
+ 
+   border: 1px solid rgb(0, 57, 110); 
+   background-image:linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url('images/softflowfic.jpg'); 
+  
+   background-attachment:fixed;
+    background-repeat: no-repeat;
+     background-size: cover;
+ 
+}
+
+
+.iabcon{
+    background-color: rgb(235, 238, 238); 
+    margin-top: 34.3%;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) and (min-width:600px){
+
+    .number{
+        display: none;
+    
+    }
+    .emailbtn{
+        display: none;
+    }
+    
+    .body{
+        background-image: url(images/softflowfic.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size:100% 100% ;
+
+        
+    }
+
+    .ip1{
+
+        font-size: 1.3em;
+        color: rgb(255, 255, 255);
+        font-family: 'Balsamiq Sans', cursive;
+        font-weight: bolder;
+        text-shadow: 2px 2px #000;
+    }
+    
+    .ip1h1{
+        font-size: 2em;
+        color: orange;
+    }
+    .abo1{
+   
+        background-repeat: no-repeat;
+        background-size:100% 100% ;
+
+}
+
+/* .abocat{
+    width: 50%;
+    
+}
+.card{
+    height: 20em;
+} */
+
+.iabcon{
+    margin-top: 20em;
+}
+
+    }
+    
+
+
+
+    @media only screen and (max-width: 700px) and (min-width:600px){
+        .abocat{
+            width: 70%;
+            
+        }
+        .card{
+            height: 20em;
+        }
+    }
+.abotablerow{
+    font-size: x-large;
+}
+
+    @media only screen and (max-width: 600px){
+.container1{
+    /* height: 40%;
+    border: 2px solid red; */
+    padding-bottom: 7%;
+}
+
+.ibackcat{
+    margin-top: 0;
+
+    background-color:rgb(85, 96, 114);
+}
+
+.card-top-iproduct{
+    display: none;
+}
+
+
+        .abotablerow{
+            font-size: large;
+        }
+        .emailbtn{
+        margin-top: 7%;
+            font-size: 5px;
+            /* width: 50px; */
+        }
+        .emailbtn:hover{
+            transform:none;
+        }
+    .number{
+        font-size: 5px;
+        margin-top: 3%;
+        /* width: 12%; */
+        /* display: none; */
+    }
+    .number:hover{
+        transform: none;
+    }
+    .col:hover{
+        transform: none;
+        
+    }
+    
+    
+    .col:active{
+        transform: scale(1.1);
+    }
+    
+   
+
+    .ip1{
+
+        font-size: 1.3em;
+        color: rgb(255, 255, 255);
+        font-family: 'Balsamiq Sans', cursive;
+        font-weight: bolder;
+        text-shadow: 2px 2px #000;
+    }
+    
+    .ip1h1{
+        font-size: 2em;
+        color: orange;
+    }
+    
+
+.abo1{
+    width: 90%;
+    /* height: 90%; */
+    margin-left: 4% ;
+    margin-right: 4%;
+        background-repeat: no-repeat;
+        background-size:100% 100% ;
+background-attachment:scroll ;
+}
+
+.abo11{
+    width: 90%;
+    height: 90%;
+    margin-left: 4% ;
+    margin-right: 4%;
+}
+.abo2{
+    width: 90%;
+    margin:  7%  5% ;
+}
+
+.icon2{
+    display: none;
+
+}
+
+.abocat{
+    width: 20em;
+    
+}
+.card{
+    height: 20em;
+}
+
+.body{
+    background-image: url(images/softflowfic.jpg) ;
+   background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size:100% 13% ;
+margin: 0 15px;
+    
+}
+
+.linksimg{
+    width: 30px;
+    height: 30px;
+}
+
+.iabcon{
+    margin-top: 30em;
+}
+
+/* .yarndescription{
+font-size: 1%;
+
+
+} */
+
+
+.pimg{
+margin-bottom: 30%;
+}
+
+.carousel-inner{
+    margin-top: 9rem;
+}
+.carousel-indicators{
+    display: none;
+}
+
+
+
+}    
+
+
