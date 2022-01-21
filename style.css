@@ -614,6 +614,27 @@ font-size:1em;
 
 @media only screen and (max-width: 1200px) and (min-width:600px){
 
+
+
+    .abo1-2{
+        width: 90%;
+        /* height: 90%; */
+        margin-left: 4% ;
+        margin-right: 4%;
+        background-image: none;
+           background-color: white;
+    }
+    .abo1{
+        width: 90%;
+        /* height: 90%; */
+        margin-left: 4% ;
+        margin-right: 4%;
+            background-repeat: no-repeat;
+            background-size:100% 100% ;
+    background-attachment:scroll ;
+    }
+    
+
     .number{
         display: none;
     
@@ -624,10 +645,10 @@ font-size:1em;
     
     .body{
         background-image: url(images/softflowfic.jpg) ;
-        background-size: cover;
+       background-attachment: scroll;
         background-repeat: no-repeat;
-        background-size:100% 100% ;
-
+        background-size:100% 13% ;
+    margin: 0 15px;
         
     }
 
@@ -649,6 +670,11 @@ font-size:1em;
         background-repeat: no-repeat;
         background-size:100% 100% ;
 
+}
+.ibackcat{
+    margin-top: 0;
+
+    background-color:rgb(85, 96, 114);
 }
 
 /* .abocat{
