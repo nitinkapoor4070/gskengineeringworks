@@ -717,9 +717,9 @@ font-size:1em;
 }
 
 
-.parah1{
-    margin-right: 32em;
-}
+/* .parah1{
+    margin-right: 40em;
+} */
 
 .ibackcat{
     margin-top: 0;
@@ -837,7 +837,9 @@ background-attachment:scroll ;
    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size:100% 13% ;
-margin: 0 15px;
+/* margin: 0 15px; */
+height: 100%;
+ width: 100%;
     
 }
 
