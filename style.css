@@ -744,7 +744,7 @@ font-size:1em;
 
             display: flex;
             justify-content: center;
-            /* width: 50px; */
+             width: 10em;
         }
         .emailbtn:hover{
             transform:none;
@@ -753,7 +753,7 @@ font-size:1em;
         top: 15%;
         left: 19%;
             font-size: 8px;
-        width: 15%;
+        width: 15em;
         
         /* display: none; */
     }
