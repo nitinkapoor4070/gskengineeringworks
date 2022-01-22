@@ -717,9 +717,9 @@ font-size:1em;
 }
 
 
-/* .parah1{
-    margin-right: 40em;
-} */
+ .parah1{
+    width: min-content;
+} 
 
 .ibackcat{
     margin-top: 0;
