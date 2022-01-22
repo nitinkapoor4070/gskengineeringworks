@@ -834,6 +834,12 @@ background-attachment:scroll ;
     height: 20em;
 }
 
+/* body{
+    width: 480px;
+    height: 100%;
+    overflow: hidden;
+} */
+
 .body{
     background-image: url(images/softflowfic.jpg) ;
    background-attachment: scroll;
@@ -880,11 +886,10 @@ margin-bottom: 30%;
     display: none;
 }
 
-.parah1{
-
-    /* width: 0%; */
-    margin-right: 80em;
-}
+ .parah1{
+position: sticky;
+  
+} 
 
 .addition {
     
