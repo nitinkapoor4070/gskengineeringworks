@@ -840,6 +840,7 @@ background-attachment:scroll ;
 /* margin: 0 15px; */
 height: 100%;
  width: 100%;
+    overflow:hidden;
     
 }
 
