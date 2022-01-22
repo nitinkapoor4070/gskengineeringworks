@@ -711,7 +711,7 @@ font-size:1em;
 .container1{
      /* height: 40%; */
     /* border: 2px solid red;  */
-    padding-bottom: 8%;
+    padding-bottom: 10%;
 
 
 }
@@ -739,21 +739,22 @@ font-size:1em;
         position: absolute;
         top: 15%;
         left: 2%;
-            font-size: 9px;
-            height: fit-content;
+            font-size: 10px;
+            /* height: fit-content; */
 
             display: flex;
             justify-content: center;
-             width: 10em;
+            width: 95px;
         }
         .emailbtn:hover{
             transform:none;
         }
     .number{
+        margin-left: 4px;
         top: 15%;
         left: 19%;
             font-size: 8px;
-        width: 15em;
+        width: 120px;
         
         /* display: none; */
     }
