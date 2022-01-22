@@ -751,8 +751,9 @@ font-size:1em;
         }
     .number{
         margin-left: 4px;
+        position: absolute;
         top: 15%;
-         right: 45%;
+        right: 40%;
             font-size: 8px;
         width: 120px;
         
