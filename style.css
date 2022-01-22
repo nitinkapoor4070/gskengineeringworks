@@ -740,7 +740,7 @@ font-size:1em;
         top: 15%;
         left: 2%;
             font-size: 10px;
-            /* height: fit-content; */
+            height: fit-content;
 
             display: flex;
             justify-content: center;
