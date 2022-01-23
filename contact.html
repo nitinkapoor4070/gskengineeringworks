@@ -115,15 +115,41 @@
             
                 <div class="mb-3">
                   <h1>Send your Queries</h1>
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required >
+                  <form method="POST" name="google-sheet">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="text" class="form-control" name="Email" placeholder="xyz@example.com"   >
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Requirement Details</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Additional details about your requirement.." rows="3" required></textarea>
+                    <label for="mobile" class="form-label">Mobile</label>
+                    <input type="text" id="number"  class="form-control" name="Mobile" placeholder="Your Mobile Number..">
+                
                   </div>
-                  <input class="btn btn-primary" id="cbtn" type="submit" value="Submit">
-               
+
+                  <div class="mb-3">
+                    <label for="Details" class="form-label">Requirement Details</label>
+                    <textarea class="form-control"  placeholder="Additional details about your requirement.." rows="3" name="Details"></textarea>
+                  </div>
+                  <input class="btn btn-primary" type="submit" value="Submit" name="submit">
+                </form>
+
+                <!-- <div>
+                  
+                  <form method="post" name="google-sheet">
+                    <label for="name">Name</label>
+                    <input type="text" id="fname" name="Name" placeholder="Your name..">
+                
+                    <label for="email">Email</label>
+                    <input type="text" id="lname" name="Email" placeholder="Your Email..">
+                
+                    <label for="country">Mobile</label>
+                    <input type="text" id="lname" name="Mobile" placeholder="Your Mobile Number..">
+                
+                  
+                    <input type="submit" value="Submit" name="submit">
+                  </form>
+                </div> -->
+
+
           </div>
           <div class="col-sm-5 con2_2">
             <div class="icardp icon2" >
@@ -247,8 +273,24 @@
 
 </div> 
 
-
 <script src="script.js"></script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwKKoHRGa-FfDGlZifsn4Fz-TR42SHHe254k46wXUE2s3q0qRRBAFsbq_xkmYiqcAi91Q/exec'
+  const form = document.forms['google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thanks for Contacting us..! We Will Response To You Soon..."))
+      .then(response =>  window.location.reload())
+     
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
 </body>
 
 <!-- <footer style="width: 100%; position: absolute; left: 0%; bottom: 0%;">  -->
