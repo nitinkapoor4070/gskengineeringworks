@@ -132,10 +132,10 @@
 </p>
 </div>
   </div> -->
-<div style="background-color: rgb(239, 249, 255);">
-  <main class="body" style=" height: 100%;">
+<div style="background-color: rgb(239, 249, 255); ">
+  <main class="body" style=" height: 100%; ">
   
-       <div class="parah1"  > 
+       <div class="parah1"   > 
      
 
 
@@ -257,7 +257,10 @@ z-index: 1;">
        <h5 class="iph" style="color:lightslategray; display: inline;">Nature of Business</h5>
        <p class="ippara">Exporter and Manufacturer</p>
       </div>
-      
+      <div class="col">
+        <h5 class="iph" style="color:lightslategray; display: inline;">Total Number of Employees</h5>
+        <p class="ippara">Exporter and Manufacturer</p>
+      </div>
     </div>
     <div class="row">
       <div class="col">
@@ -387,15 +390,22 @@ z-index: 1;">
             
                 <div class="mb-3">
                   <h1>Tell us what are you looking for?</h1>
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required >
+                  <form method="POST" name="google-sheet">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="text" class="form-control" name="Email" placeholder="xyz@example.com"   >
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Requirement Details</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Additional details about your requirement.." rows="3" required></textarea>
+                    <label for="mobile" class="form-label">Mobile</label>
+                    <input type="text" id="number"  class="form-control" name="Mobile" placeholder="Your Mobile Number..">
+                
                   </div>
-                  <input class="btn btn-primary" id="cbtn" type="submit" value="Submit">
-               
+
+                  <div class="mb-3">
+                    <label for="Details" class="form-label">Requirement Details</label>
+                    <textarea class="form-control"  placeholder="Additional details about your requirement.." rows="3" name="Details"></textarea>
+                  </div>
+                  <input class="btn btn-primary" type="submit" value="Submit" name="submit">
+                </form>
                  
           </div>
           
@@ -544,5 +554,23 @@ Follow on
 <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat"></whatsapp-button>
 
 <script src="https://unpkg.com/@open-wa/whatsapp-button?module" type="module"></script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwKKoHRGa-FfDGlZifsn4Fz-TR42SHHe254k46wXUE2s3q0qRRBAFsbq_xkmYiqcAi91Q/exec'
+  const form = document.forms['google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thanks for Contacting us..! We Will Response To You Soon..."))
+      .then(response =>  window.location.reload())
+     
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+
 </body>
 </html>
